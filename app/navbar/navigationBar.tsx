@@ -22,36 +22,30 @@ import Logo from "./logo";
 const components: { title: string; description: string }[] = [
   {
     title: "Frozen",
-
     description:
       "Recommended template for most use cases. Includes all the components you need to get started.",
   },
   {
     title: "Swift",
-
     description:
       "A template with a minimal set of components. Use this template if you want to build your own components.",
   },
   {
     title: "Tuscany",
-
     description:
       "Advanced template with more components and features. Use this template if you want to build a complex UI.",
   },
   {
     title: "Amber",
-
     description: "Great for building a marketing or landing page.",
   },
   {
     title: "Tide",
-
     description:
       "Layered template with a sidebar navigation. Great for building a dashboard or admin panel.",
   },
   {
     title: "Mint",
-
     description:
       "Nice template for building a blog or a content-heavy website.",
   },

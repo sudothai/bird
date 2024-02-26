@@ -4,7 +4,7 @@ import NavigationBar from "./navigationBar";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between items-center px-10 border-b">
+    <div className="flex justify-between items-center px-10 border-b h-40">
       <Logo />
       <NavigationBar />
       <ActionButton />
