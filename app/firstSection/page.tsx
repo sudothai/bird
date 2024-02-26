@@ -18,7 +18,14 @@ const FirstSection = () => {
           </button>
         </div>
         <div className="pt-10">
-          <video className="rounded-xl" autoPlay muted loop>
+          <video
+            className="rounded-xl"
+            autoPlay={true}
+            muted
+            loop={true}
+            controls={false}
+            playsInline
+          >
             <source src="/content/hero1.mp4" type="video/mp4" />
           </video>
         </div>
